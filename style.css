@@ -412,7 +412,7 @@
 }
 
 .business-2-subdiv:hover {
-    transition: 0.5s;
+    transition: 0.3s;
     background-color: #113F67;
     border: 3px solid #113F67;
 }
@@ -641,8 +641,8 @@
     /* padding: 100px 20px; */
     background: linear-gradient(-90deg, rgba(108, 87, 219, 1) 0%, rgba(12, 25, 31, 1) 72%);
     /* padding: 300px 150px; */
-    height: 700px;
-    padding: 100px;
+    /* height: 700px; */
+    padding: 150px 100px;
     margin: 100px 0;
     font-family: 'Urbanist', sans-serif;
     color: white;
@@ -652,31 +652,48 @@
 .question h1{
     text-align: center;
     font-size: 40px;
+    margin-top: -80px;
 }
 
 .question h1 span{
     color: skyblue;
 }
 
-.question-div{
+.question-div summary{
     display: flex;
+    cursor: pointer;
     justify-content: space-between;
     margin-top: 50px;
     font-weight: bold;
     font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.question-div summary:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+}
+
+.question-div h4{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 20px;
+    letter-spacing: 1px;
 }
 
 .question-form{
-    height: 200px;
+    /* height: 200px; */
     /* width: 200px; */
     background-color: #F4F9FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 50px 50px;
     color: black;
     position: absolute;
-    bottom: -100px;
+    bottom: -80px;
     left: 0;
     right: 0;
     margin: 0 100px;
@@ -958,6 +975,10 @@
         font-size: 18px;
     }
 
+    .judul-howwil{
+        margin-top: -150px;
+    }
+
     .howwil-div {
         display: flex;
         justify-content: center;
@@ -983,6 +1004,13 @@
         padding: 40px 50px;
         border-radius: 20px;
         margin: auto;
+    }
+
+    .howwil-left-sub-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .howwil-left .howwil-left-sub {
@@ -1052,5 +1080,70 @@
         margin-top: 100px;
     }
 
-    
+    .question{
+        /* padding: 100px 20px; */
+        background: linear-gradient(-90deg, rgba(108, 87, 219, 1) 0%, rgba(12, 25, 31, 1) 72%);
+        /* padding: 300px 150px; */
+        /* height: 700px; */
+        padding: 150px 10px;
+        /* margin: 10px 0; */
+        font-family: 'Urbanist', sans-serif;
+        color: white;
+        position: relative;
+        box-sizing: border-box;
+        /* overflow: hidden; */
+    }
+
+    .question p{
+        font-size: 15px;
+    }
+
+    .question-div summary{
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        /* gap: ; */
+        margin-top: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .question-div h4{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+
+    .question-form{
+        /* height: 300px; */
+        /* width: 400px; */
+        background-color: #F4F9FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px;
+        /* padding: 50px; */
+        color: black;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        right: 0;
+        margin: 0 20px;
+        border-radius: 20px;
+    }
+
+    .question-form-2 input{
+        padding: 25px 100px 25px 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: white;
+    }
 }
