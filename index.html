@@ -12,6 +12,8 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Inter&family=Urbanist&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Urbanist:wght@400;800&display=swap"
         rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -52,7 +54,7 @@
     </section>
 
     <section class="hero-section">
-        <div class="sub-hero-section-1">
+        <div class="sub-hero-section-1" data-aos="fade-right" data-aos-duration="1000">
             <div>
                 <h1>Hi! I Am</h1>
                 <h2>Azam Din Abdillah</h2>
@@ -82,18 +84,18 @@
             </div>
         </div>
         <div class="sub-hero-section-2">
-            <img src="assets/image/hero-section.png" alt="">
+            <img src="assets/image/hero-section.png" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <div class="main-image">
 
             </div>
-            <div class="ui-ux">
+            <div class="ui-ux" data-aos="fade-left" data-aos-duration="500" data-aos-delay="1000">
                 <img src="assets/image/ui-ux.png" alt="">
                 <div>
                     <h1>UI UX</h1>
                     <p class="text-ui-ux">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestiae.</p>
                 </div>
             </div>
-            <div class="ui-ux-2">
+            <div class="ui-ux-2" data-aos="fade-right" data-aos-duration="500" data-aos-delay="1000">
                 <img src="assets/image/piala.png" alt="">
                 <div>
                     <h1>Best Design</h1>
@@ -109,22 +111,22 @@
     <section class="whatwe">
         <h1 class="whatwe-h1">What we <span>can do?</span></h1>
         <div class="whatwe-div">
-            <div class="whatwe-list">
+            <div class="whatwe-list" data-aos="fade-up" data-aos-duration="1000">
                 <img src="assets/svg/growth-icon.png" alt="">
                 <h3>Hashtag Growth</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
             </div>
-            <div class="whatwe-list">
+            <div class="whatwe-list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <img src="assets/svg/influencer-icon.png" alt="">
                 <h3>Influencer</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
             </div>
-            <div class="whatwe-list">
+            <div class="whatwe-list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <img src="assets/svg/post-icon.png" alt="">
                 <h3>Most Influental Post</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
             </div>
-            <div class="whatwe-list">
+            <div class="whatwe-list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <img src="assets/svg/paper-plane-icon.png" alt="">
                 <h3>Most Influental Post</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident</p>
@@ -300,7 +302,7 @@
         </details>
         <details class="question-div">
             <summary>
-                <p>3. Cover a broad range of intent (transactional, informational, locational, etc.).</p>
+                <p>3. Cover a broad range of intent</p>
                 <img src="assets/svg/plus-icon.png" alt="">
             </summary>
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis voluptatibus? Iste, quam ex quaerat molestiae voluptatem cum possimus neque!</h4>
@@ -333,11 +335,49 @@
         <!-- <div class="svg-form"></div> -->
     </section>
 
-    <!-- <section class="footer">
+    <footer>
+        <div class="footer-div-1">
+            <h3>A+ Studio</h3>
+            <p class="footer-left-p">Leading digital agency with solid design and development expertise. We build readymade
+                websites, mobile applications, and elaborate online business services.</p>
+        </div>
+        <div class="footer-div-2">
+            <div>
+                <h3>What We Do</h3>
+                <p>Web Design</p>
+                <p>App Design</p>
+                <p>Social Media Manager</p>
+                <p>Social Media Manager</p>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <p>About Us</p>
+                <p>Career</p>
+                <p>Become Investor</p>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <p>FAQ</p>
+                <p>Policy</p>
+                <p>Business</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>WhatsApp</p>
+                <p>Support</p>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <h2>Copyright © 2022 Avi Yansah</h2>
+        <h2>Copyright © 2023 Azam Din Abdillah</h2>
+    </div>
 
-    </section> -->
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
