@@ -5,6 +5,10 @@
     /* font-size: 5rem; */
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar-section {
     font-family: 'Urbanist', sans-serif;
     display: flex;
